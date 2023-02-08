@@ -1,0 +1,87 @@
+body {
+  background-color: #FFFFFF;
+  text-align: center;
+
+}
+
+
+
+h1, h2, h3 {
+  font-family: Georgia;
+  color: rgb(53, 53, 53);
+  font-size: 28;
+  font-weight: bold;
+}
+
+p {
+  font-family: verdana;
+  font-weight: 150;
+}
+
+a {
+  font-family: verdana;
+  text-decoration: none;
+  transition: 0.25s;
+  padding:10px;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 105%;
+  transition: 0.25s ease-out;
+}
+
+
+#main-title{
+  font-size: 46px;
+}
+
+.lighter-grey-card {
+  background-color: #D9D9D9;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 16px;
+  box-shadow: 0 0 10px rgba(53, 53, 53, 0.9)
+}
+
+#profile-pic {
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(53, 53, 53, 0.9)
+}
+
+.socials-logo {
+  transition: 0.3s;
+  padding: 1px;
+  margin-bottom: 25px;
+  opacity: 0.7;
+}
+
+.socials-logo:hover {
+  width: 55px;
+  transition: 0.3s;
+  opacity: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 15px;
+
+}
+
+#socials-box{
+  max-height: 130px
+}
+
+.link-button{
+  margin: 20px;
+  padding: 12px;
+  width: auto;
+  background-color: rgba(100,100,100,0.5);
+  border-radius: 15px;
+}
+
+.link-test {
+  padding: 10px;
+  margin: 10px;
+}
